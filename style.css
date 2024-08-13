@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: hsla(199, 10%, 48%, 0.514);
+    display: flex;
+}
+#part1{
+    width: 26%;
+    height: 100%;
+}
+#part2{
+    width: 67%;
+    height: 100%;
+    background-color: rgb(21, 82, 122);
+    background-image: url(./img/w1.jpg );
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+#part3{
+    width: 7%;
+    height: 100%;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: hsla(202, 14%, 69%, 0.158);
+}
+#text-div{
+    position: absolute;
+    width: 400px;
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 85px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.74);
+}
+#small-img-div{
+    width: 300px;
+    height: 400px;
+    background-image: url(./img/w2.jpg);
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+#vertical-text{
+    position: absolute;
+    background-color: transparent;
+    right: -43%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    top: -3%;
+
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.575);
+    color: transparent;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+#nav{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    left: 6%;
+    top: 5%;
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.74);
+    text-transform: uppercase;
+}
